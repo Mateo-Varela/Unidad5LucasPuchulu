@@ -1,0 +1,213 @@
+body{
+    background-image: url(gimnasio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contenedor{
+    width: 960px;
+    height: 700px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    width: 960px;
+    height: 156px;
+    color: blue;
+}
+
+#bannerft{
+width: 755px;
+height: 156px;
+float: left;
+background-image:url(banner.jpeg);
+}
+
+#menu{
+width: 205px;
+height: 156px;
+background-color: brown;
+float: right;
+}
+
+.h3link{
+display: flex;
+justify-content: center;
+margin-left: 5px;
+margin-right: 5px;
+color: black;
+margin-top: -1px;
+}
+
+.profeslink{
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+    width: 350px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.profeslink:hover{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+.aboutlink{
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+    width: 350px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.aboutlink:hover{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+article{
+    width: 640px;
+    height: 600px;
+    background-color: brown;
+    float: left;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.descripcion{
+    font-size: 18px;
+    margin: -1px;
+}
+
+.sub-titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.imagengym{
+    width: 430px;
+    height: 160px;
+    margin-left: 130px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.formulario{
+    width: 300px;
+    margin: -8px;
+}
+
+ul{
+    margin: 0px;
+}
+
+ul li input{
+    font-family: inherit;
+    font-size: 100%;;
+}
+
+input{
+    display: block;
+    border-radius: 5px 10px 5px;
+    border-color: white;
+}
+
+input:hover{
+    background-color: black;
+    color: white;
+}
+
+label{
+    color: #fff;
+}
+
+.boton-form{
+    display: block;
+    background-color: #0095eb;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+textarea{
+    height: 35px;
+    width: 200px;
+    resize: none;
+}
+
+textarea:hover{
+    background-color: black;
+    color: white;
+}
+
+aside{
+    width: 320px;
+    height: 600px;
+    color: green;
+    float: right;
+    background-color: #fff;
+}
+
+.h3tips{
+display: flex;
+justify-content: center;
+color: black;
+margin-left: 30px;
+margin-right: 20px;
+}
+
+.protips{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-left: 5px;
+}
+
+footer{
+    width: 960px;
+    height: 120px;
+    background-color: black;
+    clear: both;
+}
+
+.h2footer{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.contacto{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
