@@ -89,7 +89,7 @@ margin-top: -1px;
 
 article{
     width: 640px;
-    height: 600px;
+    height: 650px;
     background-color: brown;
     float: left;
 }
@@ -176,7 +176,7 @@ textarea:hover{
 
 aside{
     width: 320px;
-    height: 600px;
+    height: 650px;
     color: green;
     float: right;
     background-color: #fff;
@@ -217,13 +217,26 @@ footer{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Caveat Brush', cursive;
 }
 
-span{
+.link-maps{
+    text-decoration: none;
     color: #fff;
-    margin-left: 5px;
-    margin-top: 4px;
-    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 5px;
+}
+
+#icono{
+    color: #fff;
+    font-size: 30px !important
+}
+
+.material-symbols-outlined{
+    color: #fff;
+    padding: 5px; 
+    font-size: 30px !important
 }
